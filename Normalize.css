@@ -10,6 +10,13 @@ h1{
     width: 80%;
     margin: 50px auto;
 }
+font: bold 2.8rem "Work Sans", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 2em;
+{
+    
+}
 body{
     background: #111;
     color: #fff;
