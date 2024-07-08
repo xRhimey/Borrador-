@@ -13,6 +13,9 @@ h1{
     width: 80%;
     margin: 50px auto;
 }
+p{ 
+ font-family: Times New Roman;
+  }
 body{
   background: #111;
   color: #fff;
