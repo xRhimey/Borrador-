@@ -19,7 +19,7 @@
     <li><a href="#Personaje">Personaje</a></li>
     <li><a href="#Integrantes">Integrantes</a></li>
     <li><a href="#Activos">Activos</a></li>
-    <li><a href="Juegos">Juegos></a></li>
+    <li><a href="Juegos">Juegos</a></li>
   </ul>
 </nav>
 <section id="Ganador">
@@ -85,8 +85,26 @@
 
 
       <section id="Juegos">
-        <h2>Juegos</h2>
+      <center> <h2>Juegos</h2> </center>
         
+    <link rel="stylesheet" href="Estiloso.css">
+    <script src="Juego.js" defer></script>
+</head>
+<body>
+    <div class="game">
+        <div class="controls">
+            <button>Start</button>
+            <div class="stats">
+                <div class="moves">0 moves</div>
+                <div class="timer">Time: 0 sec</div>
+            </div>
+        </div>
+        <div class="board-container">
+            <div class="board" data-dimension="4"></div>
+            <div class="win">You won!</div>
+        </div>
+    </div>
+
       </section>
   
       <script type="text/javascript" src="scripts.js"></script>
