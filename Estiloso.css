@@ -2,8 +2,8 @@
 }
 .game {
     position: relative;
-    top: 50%;
-    left: 70%;
+    top: 0%;
+    left: 0%;
     transform: translate(-50%, -50%);
 }
 .controls {
