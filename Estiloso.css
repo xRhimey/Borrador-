@@ -35,7 +35,7 @@ button {
 .board {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
 }
 .board-container.flipped .board {
@@ -46,8 +46,8 @@ button {
 }
 .card {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
 }
 .card-front,
@@ -65,7 +65,7 @@ button {
     font-size: 28pt;
     user-select: none;
     text-align: center;
-    line-height: 100px;
+    line-height: 70px;
     background: #FDF8E6;
 }
 .card.flipped .card-front {
