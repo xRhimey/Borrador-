@@ -7,6 +7,8 @@ const selectors = {
     win: document.querySelector('.win')
 }
 
+const totalCards= 12;
+
 const state = {
     gameStarted: false,
     flippedCards: 0,
