@@ -1,3 +1,7 @@
+.game {
+     right: 20%;
+}
+
 .controls {
     display: flex;
     gap: 20px;
