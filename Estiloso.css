@@ -1,5 +1,4 @@
-.game {
-     right: 20%;
+
 }
 
 .controls {
@@ -58,8 +57,8 @@ button {
 .card-back {
     position: absolute;
     border-radius: 5px;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     background: #282A3A;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
@@ -69,7 +68,7 @@ button {
     font-size: 28pt;
     user-select: none;
     text-align: center;
-    line-height: 60px;
+    line-height: 70px;
     background: #FDF8E6;
 }
 .card.flipped .card-front {
