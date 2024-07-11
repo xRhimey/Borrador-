@@ -50,16 +50,16 @@ button {
 }
 .card {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 .card-front,
 .card-back {
     position: absolute;
     border-radius: 5px;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     background: #282A3A;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
@@ -69,7 +69,7 @@ button {
     font-size: 28pt;
     user-select: none;
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
     background: #FDF8E6;
 }
 .card.flipped .card-front {
