@@ -7,7 +7,7 @@ const selectors = {
     win: document.querySelector('.win')
 }
 
-const totalCards= 12; {
+const totalCards= 12; {ñ
     
 }
 
