@@ -2,6 +2,16 @@
 /* Importación de fuentes de google fonts */ 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+
+
+}
+
 .contact_form{	
 	width: 225px; 
   height: auto;
