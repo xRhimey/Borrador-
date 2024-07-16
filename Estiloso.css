@@ -1,7 +1,6 @@
 
 .game {
     left: 90%;
-    transform: translate(-50%, -50%);
 }
 .controls {
     display: flex;
@@ -67,10 +66,10 @@ button {
 }
 .card-back {
     transform: rotateY(180deg) rotateZ(50deg);
-    font-size: 28pt;
+    font-size: 24pt;
     user-select: none;
     text-align: center;
-    line-height: 100px;
+    line-height: 70px;
     background: #FDF8E6;
 }
 .card.flipped .card-front {
